@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChitChat</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script src="/client/client.js" defer></script>
+</head>
+<body>
+    <nav>
+        <h2> <img src="/images/favicon.png" alt="icon" width="30" height="30"> ChitChat</h2>
+    </nav>
+    <main>
+<p class="welcome-text">Messages are End-To-End encrypted <img src="/images/padlock.png"/> </p>
+    </main>
+    <textarea name="send-message" id="send-message"rows="1" placeholder="Type your Message Here"></textarea>
+    <dialog open>
+        <h2>Welcome to ChitChat</h2>
+        <label for="username">Enter your Username</label>
+        <input type="text" name="username" id="username" required placeholder="Your full Name" autocomplete="off">
+        <button onclick="addUsername()">Enter</button>
+    </dialog>
+</body>
+</html>
