@@ -95,7 +95,7 @@ dialog{
     position: fixed;
     z-index: 2;
     box-shadow: 3px 3px 6px 0 #ddd;
-    padding: 25px;
+    padding: 18px;
     border-radius: 20px;
     top: 50%;
     left: 50%;
@@ -103,6 +103,8 @@ dialog{
     background-color: #fff;
     border: 0;
     outline: 0;
+    width: 100%;
+    max-width: 320px;
 }
 dialog h2{
     text-align: center;
