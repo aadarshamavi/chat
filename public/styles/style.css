@@ -26,7 +26,7 @@ nav{
 }
 nav .blacklink{
     color:#fff;
-    text-decoration:none;
+    text-decoration:underline;
 }
 main{
     width: 95%;
